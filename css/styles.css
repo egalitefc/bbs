@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  background-color: #e8f8f8;
+}
+
+.pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.pagination li + li {
+  margin-left: 12px;
+}
